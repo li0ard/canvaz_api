@@ -1,0 +1,33 @@
+{
+  "name": "canvaz_api",
+  "version": "0.1.0",
+  "main": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
+  "author": "li0ard",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/li0ard/canvaz_api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/li0ard/canvaz_api/issues"
+  },
+  "homepage": "https://github.com/li0ard/canvaz_api#readme",
+  "description": "Getting Spotify Canvas for track by its ID",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest",
+    "ts-proto": "^1.181.1"
+  },
+  "files": [
+    "dist/src/index.js",
+    "dist/src/index.d.ts",
+    "dist/protos/canvas.js",
+    "dist/protos/canvas.d.ts"
+  ],
+  "scripts": {
+    "build": "rm -rf dist && tsc --project tsconfig.build.json"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
