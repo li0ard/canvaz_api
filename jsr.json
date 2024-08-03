@@ -1,0 +1,8 @@
+{
+    "name": "@li0ard/canvaz-api",
+    "version": "0.1.1",
+    "exports": "./src/index.ts",
+    "publish": {
+        "exclude": ["tests", "protos/canvas.proto", "dist", ".github", "build.sh"]
+    }
+}
